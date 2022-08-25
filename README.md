@@ -2,18 +2,13 @@
 
 ## Description
 
-This application helps user generate random passwords based on the options selected by the user.
+This application helps user take a timed quiz on fundamental Javascript questions
 
-I wanted to create an application which helps users generate difficult to guess password that also meets critarias such as 
-- lenght 
-- upercase
-- lowercase
-- numbers
-- Special Characters
+I wanted to create an application which helps user practice their Javascript knowledge. Gamification of the quiz makes it fun practicing fundamentals of Javascript.
+
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Demo](#Demo)
@@ -30,7 +25,7 @@ There are not need to install anything. The webpage is going to be web hosted.
 
 ## Demo
 
-[Click here to view the project](https://dancingsandwich.github.io/PasswordGenerator/)
+[Click here to view the project](https://dancingsandwich.github.io/Code-Quiz/)
 
 ## Usage
 
@@ -39,6 +34,7 @@ Click on any of these links or images to view the projects and get in touch.
 ![alt text](assets/images/Screenshot.png)
 
 ## Credits
+
 
 TBD
 
@@ -70,10 +66,10 @@ SOFTWARE.
 
 ## Features
 
-- Generates hard to guess randomly generated passwords
-- Ability to chose length
-- Options to chose upper and lower cases
-- Selection of numbers and special characters in the password.
+- Gamification of test 
+- Timed test
+- Randomised questions
+- Live Score 
 
 ## How to Contribute
 
