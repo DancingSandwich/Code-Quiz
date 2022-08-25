@@ -2,14 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
 </head>
 
 <body>
+    <header>
+        <header>
+            <div class="large-font">Code Quiz Game</div>
+            <button class="start-button">Start the Quiz</button>
+        </header>
+    </header>
+    <main>
+        <section>
+            <div class="Quiz result">
+                <div class="win-loss-container">
+                    <div>
+                        <h2>Correct Answers: <span class="win">0 </span> </h2>
+                        <h2>Wrong Answers: <span class="lose">0</span></h2>
+                    </div>
+                    <button class="reset-button">Reset Score</button>
+                </div>
+                <div class="card timer">
+                    <div class="timer-text">
+                        <div class="large-font timer-count">60</div>
+                        <h3>seconds remaining</h3>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
