@@ -1,10 +1,27 @@
 var startButton = document.querySelector(".start-button");
 var timerElement = document.querySelector(".timer-count");
-var timerCount = 60;
+var wordBlank = document.querySelector(".word-blanks");
+var timerCount;
+
+var words =
+    ["Arrays in JavaScript can be used to Store ____________",
+        "Commonly used Datatypes DO NOT include __________",
+        "String values must be enclosed with in ___________ when being assgined to a variable",
+        "The condition in an if/else statement is enclosed within __________"];
 
 
-function startGame() {
-    console.log("I am here");
+function renderQuestions() {
+    chosenQuestion = words[Math.floor(Math.random() * words.length)];
+    wordBlank.textContent = chosenQuestion;
+}
+
+function startQuiz() {
+    startButton.disabled = true;
+    timerCount = 60;
+    renderQuestions()
+    startTimer();
+}
+function startTimer() {
     timer = setInterval(function () {
         timerCount--;
         timerElement.textContent = timerCount
@@ -13,4 +30,7 @@ function startGame() {
         }
     }, 1000);
 }
-startButton.addEventListener("click", startGame);
+
+
+startButton.addEventListener("click", startQuiz);
+init();

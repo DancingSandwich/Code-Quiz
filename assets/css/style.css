@@ -42,3 +42,9 @@ header {
     color: #fff;
     border-bottom: 30px #879274;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
