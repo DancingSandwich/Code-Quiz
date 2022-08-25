@@ -12,6 +12,15 @@ body {
     background-color: #eff5f8;
 }
 
+.reset-button {
+    font-size: 16px;
+    height: 30px;
+    line-height: 8px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 .large-font {
     font-size: 3.5em;
     text-align: center;

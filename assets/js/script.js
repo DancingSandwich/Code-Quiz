@@ -33,4 +33,4 @@ function startTimer() {
 
 
 startButton.addEventListener("click", startQuiz);
-init();
+//init();
